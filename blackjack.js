@@ -1,3 +1,9 @@
+/*
+Function calculates number multiple of 5's blackjack payout.
+
+type 'node blackjack.js' to see the results.
+*/
+
 let bet = Math.ceil(Math.random() * 100) * 5;
 
 blackJackPayout = () => {
